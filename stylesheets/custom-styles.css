@@ -14,3 +14,4 @@ body{font-family: 'Arial',sans-serif!}
   -webkit-transition: color, background-color 1s; /* Safari */
   transition: color, background-color 1s;}
 .se-primary-btn:hover{color:#00427F;background-color: #FFF}
+#dateFrom, #dateTo {width:100px}
