@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scottish Enterprise</title>
+
+    <!-- Bootstrap -->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheets/styles.css" rel="stylesheet">
+    <link href="stylesheets/custom-styles.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="navbar-header">
+                <img src="images/logo.jpg" id="se-logo">
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <div class="nav navbar-nav navbar-right">
+                <a class="navbar-brand" href="#">EUMIS Submissions</a>
+             </div>
+          </div><!--/.nav-collapse -->
+      </div><!--/.container -->
+    </div><!--/.container-fluid -->
+  </nav>
+
+<div class="container">
+    <h1>Choose Submission Projects or Service Record</h1>
+    <div class="row">
+        <div class="col-sm-6">
+            <form>
+            <div class="form-group">
+              <label for="projectType">Product Code(s) (hold Ctrl to select multiple)</label>
+              <select multiple class="form-control" id="projectType">
+                  <option>Project Name (2495)</option>
+                  <option>Project Name (574)</option>
+                  <option>Project Name (482)</option>
+                  <option>Project Name (2113)</option>
+                  <option>Project Name (...)</option>
+             </select>
+           </div>
+           <div class="checkbox">
+              <label>
+                <input type="checkbox"> Include Non-SMEs at time of appraisal
+              </label>
+           </div>
+  <h4>Project Completed Between</h4>
+  <div class="row">
+    <div class="col-xs-6">
+      <input type="date" class="form-control" id="dateFrom" placeholder="">
+    </div>
+    <div class="col-xs-6">
+      <input type="date" class="form-control" id="dateTo" placeholder="">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-6">
+      </br>
+      <p>Or</p>
+    </div>
+  </div>
+   <div class="form-group">
+        <label for="exampleInputEmail1">Service Number</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
+    </div>
+    <p></p>
+    </form>
+
+    <div class="container">
+        <div class="row">
+
+            <p>
+            <a href="index.html" class="btn btn-default">Cancel</a>
+            <a href="submissions.html" class="btn btn-success">Find</a>
+            </p>
+
+        </div>
+    </div>
+    </div>
+    <div class="col-sm-6">
+
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="discussion-points">
+            <p><span class="glyphicon glyphicon-info-sign"></span><strong> Discussion points for this demo</strong></p>
+            <ol>
+              <li>We need to understand the relationship between the three sections - Assume you can choose any of the three. </li>
+            </ol>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="javascripts/bootstrap.min.js"></script>
+</body>
+</html>
