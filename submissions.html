@@ -42,9 +42,19 @@
             <h3>1. Upload Sun Accounts File</h3>
             <div class="form-group">
               <p class="help-block">Upload the sun accounts csv export to match company data.</p>
-               <input type="file" id="exampleInputFile">
+               <form>
+                 <p><input type="file" id="exampleInputFile"></p>
+                 <p><button onclick="reset($('#file'))">Reset</button></p>
+               </form>
+               <script>
+               <!--http://jsfiddle.net/rPaZQ/-->
+               window.reset = function (e) {
+               e.wrap('<form>').closest('form').get(0).reset();
+               e.unwrap();
+               }
+               </script>
             </div>
-            <h3>2. Select Projects to submit to EUMIS</h3>
+            <h3>2. Select Products to submit to EUMIS</h3>
             <table class="table table-striped table-bordered">
                 <thead>
                     <tr>
